@@ -3,7 +3,14 @@
   "workspaces": {
     "packages": [
       "q-branded-components/**/*",
+      "q-decimal-input/**/*",
       "test-project"
     ]
+  },
+  "scripts": {
+    "ext:brand:build": "yarn workspace @tobymosque/quasar-ui-q-branded-components build",
+    "ext:brand:dev": "yarn workspace @tobymosque/quasar-ui-q-branded-components dev",
+    "ext:decimal:build": "yarn workspace @tobymosque/quasar-ui-q-decimal-input build",
+    "ext:decimal:dev": "yarn workspace @tobymosque/quasar-ui-q-decimal-input dev"
   }
 }

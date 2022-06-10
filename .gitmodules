@@ -1,3 +1,7 @@
 [submodule "q-branded-components"]
 path = q-branded-components
 url = https://github.com/TobyMosque/q-branded-components.git
+
+[submodule "q-decimal-input"]
+path = q-decimal-input
+url = https://github.com/TobyMosque/q-decimal-input.git
