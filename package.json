@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "q-branded-components/**/*",
+      "test-project"
+    ]
+  }
+}
